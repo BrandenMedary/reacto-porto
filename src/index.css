@@ -1,0 +1,94 @@
+
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+
+}
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+  background-color: rgb(55, 55, 55);
+  color: rgb(216, 216, 216)
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  letter-spacing: .1em;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav li , footer li{
+  list-style: none;
+}
+
+h1 a{
+  color: rgb(0, 184, 165);
+}
+
+h1 a:hover{
+  text-decoration: none;
+  color: rgb(132, 71, 255);
+}
+
+a{
+  color: rgb(132, 71, 255);
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(255, 59, 24);
+}
+
+nav a, footer a{
+  text-decoration: none;
+  color: rgb(132, 71, 255);
+}
+
+nav a:hover, footer a:hover{
+  text-decoration: none;
+  color: rgb(255, 59, 24);
+}
+
+.project-entry img {
+  border: solid 2px transparent;
+}
+
+.project-entry img:hover {
+  border-color: rgb(255, 59, 24);
+}
+
+.active-nav{
+  color: rgb(255, 59, 24);
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
